@@ -1,0 +1,37 @@
+/* .intro {
+  text-align: center;
+  width: 40%;
+  margin: 100px auto 20px auto;
+} */
+
+main {
+  position: relative;
+  overflow: hidden;
+  z-index: 3;
+}
+
+main section {
+  display: grid;
+  padding: 90px 0;
+  width: 70%;
+  align-items: center;
+  grid-template-columns: 2fr 3fr;
+  margin: 50px auto 150px auto;
+}
+
+main section h2 {
+  color: #dddddd;
+  font-size: 4.3rem;
+  line-height: 4.2rem;
+  padding-right: 10px;
+  text-transform: uppercase;
+  border-right: 3px solid #dddddd;
+}
+
+main section div {
+  position: relative;
+}
+
+main section div p {
+  padding-left: 10px;
+}
