@@ -1,9 +1,6 @@
 header {
-  background: url("./images/background.jpg");
-  background-size: 100%;
+  background-color: #EBEBEB;
   height: 700px;
-  background-position: center;
-  position: relative;
 }
 
 header div.top {
@@ -23,7 +20,7 @@ header div.top h1 {
   font-weight: bold;
   margin: 0;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
   border-right: 2px solid #111111;
 
 }
