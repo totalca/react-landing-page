@@ -1,0 +1,24 @@
+footer {
+  background: rgb(255, 150, 0);
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 80px;
+}
+
+footer ul {
+  list-style: none;
+  justify-items: center;
+  display: grid;
+  padding: 0;
+  margin: 0;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer ul li a {
+  color: #ffffff;
+  font-size: 2.5rem;
+}
