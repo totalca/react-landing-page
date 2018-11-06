@@ -23,7 +23,7 @@ nav ul {
 }
 
 nav li {
-  margin: 0 10px 0 0; 
+  margin: 0 100px 0 0; 
 }
 nav ul:first-of-type {
   grid-template-columns: 1fr;
@@ -51,7 +51,6 @@ nav ul li a {
   display: block;
 }
 
-.logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.navigation {
+  text-align: center;
 }
