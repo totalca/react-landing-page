@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import './main.css'
+import './form.css'
+import Form from "./form";
 
 class Main extends Component {
   render() {
@@ -11,6 +13,7 @@ class Main extends Component {
                   <p>Mauris vestibulum luctus dui. Vestibulum a nisl vel nisi malesuada maximus ut et nulla. Duis non facilisis est, bibendum consectetur sem. Etiam ut nunc ac magna ornare lobortis at sit amet lectus. Etiam eget leo tempor, condimentum turpis sit amet, ultricies nunc. Aliquam erat volutpat. Morbi a egestas arcu. Nullam ac facilisis urna. Morbi posuere semper lacus vel sagittis. Nam facilisis accumsan efficitur.</p>
                 </div>
             </section>
+
             <div>
                 <div className="services">
                   <div className="service__one">
@@ -30,6 +33,7 @@ class Main extends Component {
                   </div>
                 </div>
             </div>
+
             <div className="gallery">
               <div className="gallery__item__one"></div>
               <div className="gallery__item__two"></div>
@@ -38,6 +42,19 @@ class Main extends Component {
               <div className="gallery__item__five"></div>
               <div className="gallery__item__six"></div>
             </div>
+
+            <section>
+              <h2>Our Vision</h2>
+              <div>
+                <p>Donec facilisis nunc eros. Mauris nec odio sapien. Nunc ullamcorper interdum erat, et malesuada dolor congue at. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Donec ut ultrices lectus. Sed varius sem sit amet sapien vestibulum, dictum aliquam tortor venenatis. Vestibulum tincidunt lacinia euismod. Etiam id ipsum a massa posuere.</p>
+              </div>
+            </section>
+
+            <section>
+              <h2>E-mail Us</h2>
+              <Form />
+            </section>
         </main>
     )
   }
