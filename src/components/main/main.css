@@ -1,8 +1,8 @@
-/* .intro {
-  text-align: center;
-  width: 40%;
-  margin: 100px auto 20px auto;
-} */
+/*------------- Main -------------------*/
+
+.intro {
+  height: auto;
+}
 
 main {
   position: relative;
@@ -35,3 +35,44 @@ main section div {
 main section div p {
   padding-left: 10px;
 }
+
+/*------------- Services -------------------*/
+
+div.services {
+  display: grid;
+  padding: 10px;
+  height: auto;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.services div {
+  text-align: center;
+  width: 90%;
+  background: #ffffff;
+  border-radius: 10px;
+  margin: 10px auto 50px auto;
+  -webkit-box-shadow: 0px 10px 30px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 10px 30px -9px rgba(0,0,0,0.75);
+  box-shadow: 0px 10px 30px -9px rgba(0,0,0,0.75);
+}
+
+.services p.service__icon {
+  font-size: 3.4rem;
+  text-align: left;
+  color: rgb(255, 150, 0);
+  margin: 0 0 30px 0;
+  padding: 30px 0 30px 90px;
+  filter: grayscale(0%);
+  border-bottom: 2px solid rgb(255, 150, 0);
+}
+
+.services p.service__title {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* .services p:last-of-type {
+  text-align: left;
+  padding: 0 90px 20px 90px;
+} */
