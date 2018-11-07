@@ -6,7 +6,7 @@ nav {
   width: 80%;
   z-index: 99;
   margin: 0 auto;
-  padding: 12px 0;
+  padding: 20px 0;
   -webkit-box-shadow: 0px 10px 54px -11px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 10px 54px -11px rgba(0,0,0,0.75);
   box-shadow: 0px 10px 54px -11px rgba(0,0,0,0.75);
@@ -23,13 +23,15 @@ nav ul {
 
 nav li {
   margin: 0 100px 0 0; 
+  font-size: 1.2rem;
 }
+
 nav ul:first-of-type {
   grid-template-columns: 1fr;
 }
 
 nav ul:first-of-type li {
-  font-size: 1.4rem;
+  font-size: 2.2rem;
   font-weight: bold;
   text-indent: 30px;
 }
@@ -48,6 +50,10 @@ nav ul li a {
   text-decoration: none;
   font-weight: bold;
   display: block;
+}
+
+nav ul li a:hover {
+  color: rgb(255, 150, 0);
 }
 
 .navigation {
