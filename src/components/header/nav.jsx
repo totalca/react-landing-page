@@ -9,9 +9,9 @@ class Nav extends Component {
           <li className="navigation">Creative<span>Labs</span></li>
         </ul>
         <ul>
-          <li><a href="#nav">About</a></li>
-          <li><a href="#nav">Portofolio</a></li>
-          <li><a href="#nav">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portofolio">Portofolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     )

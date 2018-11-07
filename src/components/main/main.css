@@ -1,6 +1,6 @@
 /*------------- Main -------------------*/
 
-.intro {
+.about {
   height: auto;
 }
 
@@ -33,7 +33,7 @@ main section div {
 }
 
 main section div p {
-  padding-left: 10px;
+  padding-left: 0px;
 }
 
 /*------------- Services -------------------*/
@@ -68,8 +68,12 @@ div.services {
 
 .services p.service__title {
   font-size: 3rem;
-  margin: 0;
+  margin: 20px;
   padding: 0;
+}
+
+.services p.service__title p {
+  margin: 20px;
 }
 
 .services__one {

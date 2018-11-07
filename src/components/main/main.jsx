@@ -7,7 +7,7 @@ class Main extends Component {
   render() {
     return (
         <main>
-            <section className="intro">
+            <section id="about" className="about">
                 <h2>About Us</h2>
                 <div>
                   <p>Mauris vestibulum luctus dui. Vestibulum a nisl vel nisi malesuada maximus ut et nulla. Duis non facilisis est, bibendum consectetur sem. Etiam ut nunc ac magna ornare lobortis at sit amet lectus. Etiam eget leo tempor, condimentum turpis sit amet, ultricies nunc. Aliquam erat volutpat. Morbi a egestas arcu. Nullam ac facilisis urna. Morbi posuere semper lacus vel sagittis. Nam facilisis accumsan efficitur.</p>
@@ -34,7 +34,7 @@ class Main extends Component {
                 </div>
             </div>
 
-            <div className="gallery">
+            <div id="portofolio" className="gallery">
               <div className="gallery__item__one"></div>
               <div className="gallery__item__two"></div>
               <div className="gallery__item__three"></div>
@@ -43,7 +43,7 @@ class Main extends Component {
               <div className="gallery__item__six"></div>
             </div>
 
-            <section>
+            <section id="vision">
               <h2>Our Vision</h2>
               <div>
                 <p>Donec facilisis nunc eros. Mauris nec odio sapien. Nunc ullamcorper interdum erat, et malesuada dolor congue at. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -51,7 +51,7 @@ class Main extends Component {
               </div>
             </section>
 
-            <section>
+            <section id="contact">
               <h2>E-mail Us</h2>
               <Form />
             </section>
