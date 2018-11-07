@@ -30,6 +30,14 @@ class Main extends Component {
                   </div>
                 </div>
             </div>
+            <div className="gallery">
+              <div className="gallery__item__one"></div>
+              <div className="gallery__item__two"></div>
+              <div className="gallery__item__three"></div>
+              <div className="gallery__item__four"></div>
+              <div className="gallery__item__five"></div>
+              <div className="gallery__item__six"></div>
+            </div>
         </main>
     )
   }
