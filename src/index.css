@@ -9,6 +9,10 @@ body {
   box-sizing: border-box;
 }
 
+p {
+  display: block;
+}
+
 .container {
   background-color: #ffffff;
   width: 100%;
@@ -133,15 +137,10 @@ body {
   }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px)  {
 
   body {
-    /* position:fixed; */
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    /* margin: auto; */
+    margin: auto;
     width: 100%;
     height: 100%;
     padding: 0;
@@ -160,25 +159,36 @@ body {
 }
 
   nav {
-   text-align: center;
+    text-align: center;
     display: grid;
+    width: 100% !important;
     grid-template-columns: 1fr;
   }
 
   nav ul {
-    margin-bottom: 10px;
+    width: 100% !important;
+    display: flex !important;
+    margin-bottom: 10px !important;
+    padding: 0px !important;
+    margin: -4px -77px 0px -85px !important;
   }
 
-  nav ul:first-of-type {
-    border-bottom:1px solid #111;
-    padding-bottom: 10px; 
+  nav ul:first-of-type li {
+    font-size: 1.2rem !important;
+    font-weight: bold;
+    text-indent: 95px !important;
   }
 
   nav ul:last-of-type li {
    text-align: center;
    width: 100%;
    padding-top: 10px;
+   margin: 0px 10px 0 0px !important;
   }
+
+  nav ul li a {
+    font-size: 0.9rem !important;
+}
 
   header {
     background-size: 160%;
@@ -219,7 +229,7 @@ body {
 
   div.services {
    display: grid;
-   grid-template-columns: 1fr;
+   grid-template-columns: 1fr !important;
   }
 
   div.services div {
@@ -233,7 +243,7 @@ body {
   }
 
   .services p.service__title {
-    font-size: 2.1rem;
+    font-size: 2rem !important;
     padding: 0;
     margin: 0;
   }
@@ -271,10 +281,22 @@ body {
   footer {
     padding: 20px 0;
     text-align: center;
-    grid-template-columns:1fr;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
   }
 
   footer ul li a {
     font-size: 1.8rem;
   }
+}
+
+p {
+  display: block;
+}
+
+h3 {
+  font-size: 1.8rem !important;
+  font-weight: bold !important;
+  margin-block-start: 0.2rem !important;
+  margin-block-end: 0.2rem !important;
 }
