@@ -4,6 +4,7 @@ nav {
   grid-template-columns: 2fr 1fr;
   background: #ffffff;
   width: 80%;
+  align-items: baseline;
   z-index: 99;
   margin: 0 auto;
   padding: 20px 0;
