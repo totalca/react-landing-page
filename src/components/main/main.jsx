@@ -52,7 +52,7 @@ class Main extends Component {
             </section>
 
             <section id="contact">
-              <h2>E-mail Us</h2>
+              <h2 className="form__h2">E-mail Us</h2>
               <Form />
             </section>
         </main>
