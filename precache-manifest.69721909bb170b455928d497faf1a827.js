@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/react-landing-page/static/media/gallery5.7e85b82c.jpeg"
   },
   {
-    "revision": "f430c93bf7b988099749",
-    "url": "/react-landing-page/static/css/main.4ba4d6db.chunk.css"
+    "revision": "9280d02702752ad38e07",
+    "url": "/react-landing-page/static/css/main.9f793c10.chunk.css"
   },
   {
     "revision": "6eb6405c9d99258624bc",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/react-landing-page/static/media/gallery6.a78840cd.jpeg"
   },
   {
-    "revision": "f430c93bf7b988099749",
-    "url": "/react-landing-page/static/js/main.f430c93b.chunk.js"
+    "revision": "9280d02702752ad38e07",
+    "url": "/react-landing-page/static/js/main.9280d027.chunk.js"
   },
   {
     "revision": "66eb0b4e304d953fa6e8028a882f889d",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/react-landing-page/static/media/gallery1.4349d26f.jpeg"
   },
   {
-    "revision": "5670a68ef5c074feae155e17d16d2c69",
+    "revision": "b8e2b86b287ef23c4e558a91f7e69261",
     "url": "/react-landing-page/index.html"
   }
 ];
